@@ -20,7 +20,7 @@ const Home = () => {
   // Set this here so we dont have to create a new profile every time and we are not managing state in this demo.
   // We use the profileId to create a new application in `_newApplicationData`.
   const profileId =
-    "0x1f40aa439b92e4c9b1ece733467bbffc8ffcdecd20c26624af0406b4019c305f";
+    "0x6b38ed6121e9891b3835d40823da801f6d173267291c5cdd321f328bb2bb1420";
   const _newApplicationData: TNewApplication = {
     name: "Test Application",
     website: "https://docs.allo.gitcoin.co",
