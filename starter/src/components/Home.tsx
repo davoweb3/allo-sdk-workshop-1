@@ -20,22 +20,22 @@ const Home = () => {
   // Set this here so we dont have to create a new profile every time and we are not managing state in this demo.
   // We use the profileId to create a new application in `_newApplicationData`.
   const profileId =
-    "0x6b38ed6121e9891b3835d40823da801f6d173267291c5cdd321f328bb2bb1420";
+    "0xd83c6ad405f2737aa32fdfba9ba3a9bf51b94d900424cd086d154c946d0f4920";
   const _newApplicationData: TNewApplication = {
-    name: "Test Application",
-    website: "https://docs.allo.gitcoin.co",
-    description: "Test Application Description",
+    name: "Curious Lenturious",
+    website: "https:www.google.com",
+    description: "Profile testing",
     email: "test@gitcoin.co",
     // 🚨 This amount cannot be greater than the maxRequestedAmount of the pool or the tx will fail..
     requestedAmount: BigInt(1e13),
-    recipientAddress: "0xE849b2a694184B8739a04C915518330757cDB18B",
+    recipientAddress: "0x9b925641c5eF3fd86f63bfF2da55A0dEeAFD1263",
     base64Image: "",
     profileName: "",
     profileId: profileId,
   };
 
   const _allocationData: Allocation = {
-    recipientId: "0xE849b2a694184B8739a04C915518330757cDB18B",
+    recipientId: "0x9b925641c5eF3fd86f63bfF2da55A0dEeAFD1263",
     status: Status.Accepted,
   };
 

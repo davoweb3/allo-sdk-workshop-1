@@ -12,7 +12,7 @@ export const allo = new Allo({
 
 export const createPool = async () => {
   // Create a profile to use as the pool owner/creator
- const profileId ="0x262065cee4b4373cb9c7307f6a64d5d197108d76c01923207a819975bd3fd577";
+ const profileId ="0xd83c6ad405f2737aa32fdfba9ba3a9bf51b94d900424cd086d154c946d0f4920";
   /* const profileId = await createProfile();
  */
   // Save metadata to IPFS -> returns a pointer we save on chain for the metadata
